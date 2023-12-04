@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" charset="utf-8">
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="styles_form.css">
+    </head>
+
+    <body>
+        <form class="contact-form" action="" method="POST" name="contact-form">
+            <ul>
+                <li>
+                    <h2>Contact us if you know another cool bar</h2>
+                    <span class="required-notification">* Denotes Required Field</span>
+                </li>
+                <li>
+                    <label for="name">Name of the bar: </label>
+                    <input type="text" name="name" placeholder="O.W.Grant" required>
+                </li>
+                <li>
+                    <label for="message">Tell about this bar: </label>
+                    <textarea name="message" cols="40" rows="6" required placeholder="Describe that bar"></textarea>
+                </li>
+                <li>
+                    <button class="submit" type="submit">Submit form</button>
+                </li>
+            </ul>
+        </form>
+        <p>get <a href="index.html">back</a></p>
+
+    </body>
+</html>

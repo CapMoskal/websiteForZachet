@@ -1,0 +1,59 @@
+body {
+    font-family: 'AR One Sans', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+    background: #212B38;
+    /* background: linear-gradient(#DCC295, #97A5AF); */
+    display: block;
+}
+
+#first-h1 {
+    color: #F5F5F5;
+    margin: 0;
+}
+#second-h1 {
+    color: #12B880;
+    margin: 0;
+}
+p {
+    color: #CFCED2; 
+    font-size: 20px;
+    margin: 0;
+}
+
+.info {
+    font-family: 'AR One Sans', sans-serif;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+}
+
+.password-lines {
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background: #273549;
+    color: #12B880;
+    width: 200px;
+    height: 25px;
+    font-family: inherit;
+}
+
+button {
+    margin-top: 50px;
+    width: 222px;
+    height: 57px;
+    font-size: 15px;
+    background: #12B880;
+    color: #FEFEFE;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 7px;
+}
